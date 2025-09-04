@@ -1,0 +1,133 @@
+/* Basic styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6e7bff, #3a3d91); /* Gradient background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero {
+    background: url('https://photos.google.com/photo/AF1QipOi5zg3qT29hEVlMb_W1X-dXxoD4ubsp3JKQWoG') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    animation: fadeIn 2s ease-out;
+}
+
+.hero p {
+    font-size: 20px;
+    animation: fadeIn 3s ease-out;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #333;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill {
+    font-size: 18px;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    height: 15px;
+    width: 100%;
+}
+
+.progress {
+    background-color: #ff6f61;
+    height: 100%;
+    border-radius: 10px;
+}
+
+section {
+    padding: 50px 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
+}
+
+section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    color: #666;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff6f61;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
